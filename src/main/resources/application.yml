@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: kafka-publisher
+
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+
+    consumer:
+      group-id: my-consumer-group
+
+kafka:
+  topic:
+    name1: saimanideep
+    name2: chandravamsi
+
+server:
+  port: 9191
+
